@@ -1,0 +1,1 @@
+console.log("Nice , this world is great.")

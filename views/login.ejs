@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form method="post" action="/login">
+        <div class="in-form">
+            <p> <%=locals.message%></p>
+            <h1 id="warning">It's good to see you! Log in to your account.</h1>
+            <label for="email" >E-mail: </label>
+            <input type="email" name="email" placeholder="Enter your mail " required> <br>
+            <label for="name">Password: </label>
+            <input type="password" name="password" placeholder="Enter your password " required> <br>
+            <button class="btn" type="submit">Log In</button>
+        </div>
+    </form>
+</body>
+</html>
